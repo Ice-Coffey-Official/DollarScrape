@@ -79,6 +79,6 @@ print('Saving...')
 df = pd.DataFrame(pandasList[1:],columns=pandasList[0])
 
 if('csv' in saveAs):
-    df.to_csv('data.csv', index=False)
+    df.to_csv('{data}.csv'.format(data=saveName), index=False)
 if('excel' in saveAs):
-    df.to_excel("data.xlsx", index=False)
+    df.to_excel("{data}.xlsx".format(data=saveName), index=False)
