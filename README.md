@@ -5,7 +5,7 @@ Scraper for Data of the Dollar Tree
 - Scrapes Dollar Tree Data for Informational purposes from https://www.dollartree.com and puts them into excel and csv files.
 
 ## Data
-There is a lot of data to process, so sample data of the output is provided.
+There is a lot of data to process, so it is provided in data.csv and data.xlsx.
 
 ## How to Use
 1. Make sure to have python installed on your machine.
